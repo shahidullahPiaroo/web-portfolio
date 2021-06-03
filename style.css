@@ -7,3 +7,69 @@ h1{
 .name-highlight {
     color: orange;
 }
+
+.top-section{
+    background-image: url("images/top-banner.png");
+    width: 100%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 20px 20px;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.link-button{
+    color: white;
+    text-decoration: none;
+    background-color: orangered;
+    border-radius: 2px;
+}
+
+.dream-area {
+    width: 100%;
+    overflow: hidden;
+    background-image: url("./images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    }
+
+.experience{
+    width: 100%;
+    overflow: hidden;
+    margin-left: 5%;
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.single-experience{
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 5px;
+    height: 80%;
+}
+
+.frontend{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+.backend{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+}
+
